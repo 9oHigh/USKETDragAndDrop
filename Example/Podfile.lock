@@ -1,0 +1,16 @@
+PODS:
+  - USKETDragAndDrop (0.1.0)
+
+DEPENDENCIES:
+  - USKETDragAndDrop (from `../`)
+
+EXTERNAL SOURCES:
+  USKETDragAndDrop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  USKETDragAndDrop: 18f25b5565d3cbace0b965780e2c039bf2b0d8b6
+
+PODFILE CHECKSUM: 018babf0d208732a235eeb2bb2b4745d5eeadb24
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BD4ABF13E28A2E9A0EBEDE92DDDE453 /* Pods-USKETDragAndDrop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F31F953AD7590C3C164BDF6E1B75B7 /* Pods-USKETDragAndDrop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1267D3AAA2C373F4D530ABADE53CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		743FCC88560C90A41BD5D7D914F35238 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E483947A584517D4A5DE96EEE1772C /* ReplaceMe.swift */; };
+		80643E72C0D5AC9486B02E9A3A7CCD70 /* Pods-USKETDragAndDrop_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E0C9742A5908D07B1778750C9C4554 /* Pods-USKETDragAndDrop_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE92A151F0106D5027D1C88C55A6BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A9BC6B3D5B73C2E809814757AE8A7A42 /* USKETDragAndDrop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE10836AA01DA7DD663BF7887315536 /* USKETDragAndDrop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E7B4D421FBDF350E9B46AE6C9C34A0 /* Pods-USKETDragAndDrop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5084D5D8F737C72D3559EDA663C765E7 /* Pods-USKETDragAndDrop_Example-dummy.m */; };
+		D095795DA20C9F455E5C49BAA9C709FA /* Pods-USKETDragAndDrop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF2EABB3214140D1780D5E4B00EB27 /* Pods-USKETDragAndDrop_Tests-dummy.m */; };
+		E58EDD451B30C111047259B86131D8CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F13D406A1940D58EA8897A3A183F67F7 /* USKETDragAndDrop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCECA7A03A6C4F97A3B474E68D13898 /* USKETDragAndDrop-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E126A030EBB3E0C4CAD6C10F9D8EF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF48C13D91E828C9D222768F4680E92C;
+			remoteInfo = "Pods-USKETDragAndDrop_Example";
+		};
+		4CC9EFAFD0E09CE4B6EB2E3756FF86AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAFA78ED36E48F89CBFBA1808807901;
+			remoteInfo = USKETDragAndDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F31F953AD7590C3C164BDF6E1B75B7 /* Pods-USKETDragAndDrop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-USKETDragAndDrop_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0FA67B238E6602097AD85BD6B6F0FF70 /* Pods-USKETDragAndDrop_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-USKETDragAndDrop_Tests"; path = Pods_USKETDragAndDrop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133596C9BE6BEA490F0BF8C04CF3DA77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		17CE9A5E7E1347D97B4AD0B60ADD24FC /* USKETDragAndDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = USKETDragAndDrop.release.xcconfig; sourceTree = "<group>"; };
+		19E483947A584517D4A5DE96EEE1772C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = USKETDragAndDrop/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		29C69546E89D7AFC73A423BD038EBD4F /* Pods-USKETDragAndDrop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-USKETDragAndDrop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FE10836AA01DA7DD663BF7887315536 /* USKETDragAndDrop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USKETDragAndDrop-umbrella.h"; sourceTree = "<group>"; };
+		36C53A37E22D0FAD3F79E77BB54FAD11 /* Pods-USKETDragAndDrop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USKETDragAndDrop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C53D9AB5DB5183833D823CD7192DAD4 /* Pods-USKETDragAndDrop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USKETDragAndDrop_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D385FFFC070049EE8934BC64E72C414 /* USKETDragAndDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = USKETDragAndDrop.debug.xcconfig; sourceTree = "<group>"; };
+		448B5336B8A27B87DA9C1BF613C73045 /* Pods-USKETDragAndDrop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USKETDragAndDrop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44B994E332D4EBC9B46D5B976C26BCF2 /* USKETDragAndDrop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "USKETDragAndDrop-Info.plist"; sourceTree = "<group>"; };
+		466BF9E83508EB944BDD67D686BE6290 /* Pods-USKETDragAndDrop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-USKETDragAndDrop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5084D5D8F737C72D3559EDA663C765E7 /* Pods-USKETDragAndDrop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-USKETDragAndDrop_Example-dummy.m"; sourceTree = "<group>"; };
+		5B7C074F63D9A2A7CC6420E3ACFB87C7 /* USKETDragAndDrop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = USKETDragAndDrop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		70988DA914F0C78070203BAA02F292FF /* Pods-USKETDragAndDrop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-USKETDragAndDrop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75E0C9742A5908D07B1778750C9C4554 /* Pods-USKETDragAndDrop_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-USKETDragAndDrop_Example-umbrella.h"; sourceTree = "<group>"; };
+		9060B4A32731694627B14668DC847E6E /* Pods-USKETDragAndDrop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-USKETDragAndDrop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		97CCE127DEA9AF764A2BF147D4013184 /* Pods-USKETDragAndDrop_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-USKETDragAndDrop_Example"; path = Pods_USKETDragAndDrop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97ECADAC6387D742C366C7D37901F869 /* USKETDragAndDrop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USKETDragAndDrop-prefix.pch"; sourceTree = "<group>"; };
+		9D8683A00262C28FBA4D102C0240D687 /* USKETDragAndDrop */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = USKETDragAndDrop; path = USKETDragAndDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC15175499ED1CD3F0EA6241B9915B61 /* Pods-USKETDragAndDrop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USKETDragAndDrop_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE710BE648AD7B5031381D46774B3F93 /* Pods-USKETDragAndDrop_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-USKETDragAndDrop_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BBCECA7A03A6C4F97A3B474E68D13898 /* USKETDragAndDrop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "USKETDragAndDrop-dummy.m"; sourceTree = "<group>"; };
+		BEB3086A444CD6554D2066A38CBFC0CE /* Pods-USKETDragAndDrop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-USKETDragAndDrop_Example.modulemap"; sourceTree = "<group>"; };
+		D4EF2EABB3214140D1780D5E4B00EB27 /* Pods-USKETDragAndDrop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-USKETDragAndDrop_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8BAF5C6066BE8601F265EDC315F267B /* USKETDragAndDrop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = USKETDragAndDrop.modulemap; sourceTree = "<group>"; };
+		DA844F76656AA392C4756260D9B35619 /* Pods-USKETDragAndDrop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-USKETDragAndDrop_Tests.modulemap"; sourceTree = "<group>"; };
+		E1859E6F9AFF89FF6EF0BFBC75B98BB0 /* Pods-USKETDragAndDrop_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-USKETDragAndDrop_Tests-Info.plist"; sourceTree = "<group>"; };
+		F0103A67589E5AA3B2C9CB82FC5B1C2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FDE5710D9B9ABB0320392F72129E6F89 /* Pods-USKETDragAndDrop_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-USKETDragAndDrop_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87957ED24DD68F10B8575132608C7E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE92A151F0106D5027D1C88C55A6BE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB105B2FD5142D41456D8300A179205E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1267D3AAA2C373F4D530ABADE53CC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC6D16E0C65C3F22524A9B08B2C8EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58EDD451B30C111047259B86131D8CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1684BD921607614BBAABA1012890B2D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48FDFFB80FC823B2DD710580B0AC0603 /* Pods-USKETDragAndDrop_Example */,
+				222DD855264AED054ACA633AA7C7E2F9 /* Pods-USKETDragAndDrop_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		222DD855264AED054ACA633AA7C7E2F9 /* Pods-USKETDragAndDrop_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA844F76656AA392C4756260D9B35619 /* Pods-USKETDragAndDrop_Tests.modulemap */,
+				70988DA914F0C78070203BAA02F292FF /* Pods-USKETDragAndDrop_Tests-acknowledgements.markdown */,
+				466BF9E83508EB944BDD67D686BE6290 /* Pods-USKETDragAndDrop_Tests-acknowledgements.plist */,
+				D4EF2EABB3214140D1780D5E4B00EB27 /* Pods-USKETDragAndDrop_Tests-dummy.m */,
+				E1859E6F9AFF89FF6EF0BFBC75B98BB0 /* Pods-USKETDragAndDrop_Tests-Info.plist */,
+				08F31F953AD7590C3C164BDF6E1B75B7 /* Pods-USKETDragAndDrop_Tests-umbrella.h */,
+				448B5336B8A27B87DA9C1BF613C73045 /* Pods-USKETDragAndDrop_Tests.debug.xcconfig */,
+				36C53A37E22D0FAD3F79E77BB54FAD11 /* Pods-USKETDragAndDrop_Tests.release.xcconfig */,
+			);
+			name = "Pods-USKETDragAndDrop_Tests";
+			path = "Target Support Files/Pods-USKETDragAndDrop_Tests";
+			sourceTree = "<group>";
+		};
+		48FDFFB80FC823B2DD710580B0AC0603 /* Pods-USKETDragAndDrop_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BEB3086A444CD6554D2066A38CBFC0CE /* Pods-USKETDragAndDrop_Example.modulemap */,
+				29C69546E89D7AFC73A423BD038EBD4F /* Pods-USKETDragAndDrop_Example-acknowledgements.markdown */,
+				9060B4A32731694627B14668DC847E6E /* Pods-USKETDragAndDrop_Example-acknowledgements.plist */,
+				5084D5D8F737C72D3559EDA663C765E7 /* Pods-USKETDragAndDrop_Example-dummy.m */,
+				AE710BE648AD7B5031381D46774B3F93 /* Pods-USKETDragAndDrop_Example-frameworks.sh */,
+				FDE5710D9B9ABB0320392F72129E6F89 /* Pods-USKETDragAndDrop_Example-Info.plist */,
+				75E0C9742A5908D07B1778750C9C4554 /* Pods-USKETDragAndDrop_Example-umbrella.h */,
+				AC15175499ED1CD3F0EA6241B9915B61 /* Pods-USKETDragAndDrop_Example.debug.xcconfig */,
+				3C53D9AB5DB5183833D823CD7192DAD4 /* Pods-USKETDragAndDrop_Example.release.xcconfig */,
+			);
+			name = "Pods-USKETDragAndDrop_Example";
+			path = "Target Support Files/Pods-USKETDragAndDrop_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E2DF6C203F9B8E14ADC48858C99E291 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0103A67589E5AA3B2C9CB82FC5B1C2E /* LICENSE */,
+				133596C9BE6BEA490F0BF8C04CF3DA77 /* README.md */,
+				5B7C074F63D9A2A7CC6420E3ACFB87C7 /* USKETDragAndDrop.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDD66128467DE878EF3E9E77C4A7313B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CCE127DEA9AF764A2BF147D4013184 /* Pods-USKETDragAndDrop_Example */,
+				0FA67B238E6602097AD85BD6B6F0FF70 /* Pods-USKETDragAndDrop_Tests */,
+				9D8683A00262C28FBA4D102C0240D687 /* USKETDragAndDrop */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BA5B73E88F5AAAFBE5292F1AA46AC5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D516CF6030C9604E52596553DD7C13C3 /* USKETDragAndDrop */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C6BA5B73E88F5AAAFBE5292F1AA46AC5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BDD66128467DE878EF3E9E77C4A7313B /* Products */,
+				1684BD921607614BBAABA1012890B2D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D516CF6030C9604E52596553DD7C13C3 /* USKETDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				19E483947A584517D4A5DE96EEE1772C /* ReplaceMe.swift */,
+				7E2DF6C203F9B8E14ADC48858C99E291 /* Pod */,
+				FCD816DD7B51412252B5CA807912ED44 /* Support Files */,
+			);
+			name = USKETDragAndDrop;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCD816DD7B51412252B5CA807912ED44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BAF5C6066BE8601F265EDC315F267B /* USKETDragAndDrop.modulemap */,
+				BBCECA7A03A6C4F97A3B474E68D13898 /* USKETDragAndDrop-dummy.m */,
+				44B994E332D4EBC9B46D5B976C26BCF2 /* USKETDragAndDrop-Info.plist */,
+				97ECADAC6387D742C366C7D37901F869 /* USKETDragAndDrop-prefix.pch */,
+				2FE10836AA01DA7DD663BF7887315536 /* USKETDragAndDrop-umbrella.h */,
+				3D385FFFC070049EE8934BC64E72C414 /* USKETDragAndDrop.debug.xcconfig */,
+				17CE9A5E7E1347D97B4AD0B60ADD24FC /* USKETDragAndDrop.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/USKETDragAndDrop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95D73F7D05465F6E8A4EE778EFAA1807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80643E72C0D5AC9486B02E9A3A7CCD70 /* Pods-USKETDragAndDrop_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCDB614256615B3AE22B4602D45B43E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4ABF13E28A2E9A0EBEDE92DDDE453 /* Pods-USKETDragAndDrop_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55E150A8BE3D1570A7B21F36A73D265 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC6B3D5B73C2E809814757AE8A7A42 /* USKETDragAndDrop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB65244BAE3C88CFED0C70CA3BC0B9E8 /* Pods-USKETDragAndDrop_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8299F7447C7EA29F0D392166C7C32A50 /* Build configuration list for PBXNativeTarget "Pods-USKETDragAndDrop_Tests" */;
+			buildPhases = (
+				9DCDB614256615B3AE22B4602D45B43E /* Headers */,
+				DAC328FCFA24DDC559DCFF1987B050E6 /* Sources */,
+				BB105B2FD5142D41456D8300A179205E /* Frameworks */,
+				C18948C504F0D9F9047AC6E336AD0CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4E9CCAC0F4EBC630EFF0D8C2914377 /* PBXTargetDependency */,
+			);
+			name = "Pods-USKETDragAndDrop_Tests";
+			productName = Pods_USKETDragAndDrop_Tests;
+			productReference = 0FA67B238E6602097AD85BD6B6F0FF70 /* Pods-USKETDragAndDrop_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCAFA78ED36E48F89CBFBA1808807901 /* USKETDragAndDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1876F7BCDAF3356D383D7CF0FD0F218 /* Build configuration list for PBXNativeTarget "USKETDragAndDrop" */;
+			buildPhases = (
+				D55E150A8BE3D1570A7B21F36A73D265 /* Headers */,
+				4E8AD31FB9F62F1DFFFCD2880D1134CF /* Sources */,
+				87957ED24DD68F10B8575132608C7E9E /* Frameworks */,
+				700BDCCD0543B6BC10E2B7E490F74E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USKETDragAndDrop;
+			productName = USKETDragAndDrop;
+			productReference = 9D8683A00262C28FBA4D102C0240D687 /* USKETDragAndDrop */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF48C13D91E828C9D222768F4680E92C /* Pods-USKETDragAndDrop_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53E1493721F501C8797A2E31B913D2F /* Build configuration list for PBXNativeTarget "Pods-USKETDragAndDrop_Example" */;
+			buildPhases = (
+				95D73F7D05465F6E8A4EE778EFAA1807 /* Headers */,
+				D655F5F8E94BC0A9A11B9646922EBECD /* Sources */,
+				DAC6D16E0C65C3F22524A9B08B2C8EB1 /* Frameworks */,
+				FCEF03B005E691042A302B882A44562C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9180BCEC65638935F05E65AB7F44965 /* PBXTargetDependency */,
+			);
+			name = "Pods-USKETDragAndDrop_Example";
+			productName = Pods_USKETDragAndDrop_Example;
+			productReference = 97CCE127DEA9AF764A2BF147D4013184 /* Pods-USKETDragAndDrop_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDD66128467DE878EF3E9E77C4A7313B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF48C13D91E828C9D222768F4680E92C /* Pods-USKETDragAndDrop_Example */,
+				AB65244BAE3C88CFED0C70CA3BC0B9E8 /* Pods-USKETDragAndDrop_Tests */,
+				BCAFA78ED36E48F89CBFBA1808807901 /* USKETDragAndDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700BDCCD0543B6BC10E2B7E490F74E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18948C504F0D9F9047AC6E336AD0CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEF03B005E691042A302B882A44562C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8AD31FB9F62F1DFFFCD2880D1134CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743FCC88560C90A41BD5D7D914F35238 /* ReplaceMe.swift in Sources */,
+				F13D406A1940D58EA8897A3A183F67F7 /* USKETDragAndDrop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D655F5F8E94BC0A9A11B9646922EBECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E7B4D421FBDF350E9B46AE6C9C34A0 /* Pods-USKETDragAndDrop_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC328FCFA24DDC559DCFF1987B050E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D095795DA20C9F455E5C49BAA9C709FA /* Pods-USKETDragAndDrop_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4E9CCAC0F4EBC630EFF0D8C2914377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-USKETDragAndDrop_Example";
+			target = DF48C13D91E828C9D222768F4680E92C /* Pods-USKETDragAndDrop_Example */;
+			targetProxy = 2E126A030EBB3E0C4CAD6C10F9D8EF8C /* PBXContainerItemProxy */;
+		};
+		A9180BCEC65638935F05E65AB7F44965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = USKETDragAndDrop;
+			target = BCAFA78ED36E48F89CBFBA1808807901 /* USKETDragAndDrop */;
+			targetProxy = 4CC9EFAFD0E09CE4B6EB2E3756FF86AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C893B3122A4F660D3C0424A6142F488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C53D9AB5DB5183833D823CD7192DAD4 /* Pods-USKETDragAndDrop_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-USKETDragAndDrop_Example/Pods-USKETDragAndDrop_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-USKETDragAndDrop_Example/Pods-USKETDragAndDrop_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F521621571FBE7EE58925ECE6B85EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448B5336B8A27B87DA9C1BF613C73045 /* Pods-USKETDragAndDrop_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-USKETDragAndDrop_Tests/Pods-USKETDragAndDrop_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-USKETDragAndDrop_Tests/Pods-USKETDragAndDrop_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73CB2441D25D5AC2BEFFE46FD786108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CE9A5E7E1347D97B4AD0B60ADD24FC /* USKETDragAndDrop.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop.modulemap";
+				PRODUCT_MODULE_NAME = USKETDragAndDrop;
+				PRODUCT_NAME = USKETDragAndDrop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3636BE1EE4D7F1F3E0C62D6F388419C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC15175499ED1CD3F0EA6241B9915B61 /* Pods-USKETDragAndDrop_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-USKETDragAndDrop_Example/Pods-USKETDragAndDrop_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-USKETDragAndDrop_Example/Pods-USKETDragAndDrop_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA02D25DCB48518067B80F9F1C4607C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C53A37E22D0FAD3F79E77BB54FAD11 /* Pods-USKETDragAndDrop_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-USKETDragAndDrop_Tests/Pods-USKETDragAndDrop_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-USKETDragAndDrop_Tests/Pods-USKETDragAndDrop_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D01F912816AAD294C9E54446AC2CC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D385FFFC070049EE8934BC64E72C414 /* USKETDragAndDrop.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/USKETDragAndDrop/USKETDragAndDrop.modulemap";
+				PRODUCT_MODULE_NAME = USKETDragAndDrop;
+				PRODUCT_NAME = USKETDragAndDrop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8299F7447C7EA29F0D392166C7C32A50 /* Build configuration list for PBXNativeTarget "Pods-USKETDragAndDrop_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F521621571FBE7EE58925ECE6B85EA8 /* Debug */,
+				CA02D25DCB48518067B80F9F1C4607C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1876F7BCDAF3356D383D7CF0FD0F218 /* Build configuration list for PBXNativeTarget "USKETDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01F912816AAD294C9E54446AC2CC896 /* Debug */,
+				73CB2441D25D5AC2BEFFE46FD786108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53E1493721F501C8797A2E31B913D2F /* Build configuration list for PBXNativeTarget "Pods-USKETDragAndDrop_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3636BE1EE4D7F1F3E0C62D6F388419C /* Debug */,
+				2C893B3122A4F660D3C0424A6142F488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

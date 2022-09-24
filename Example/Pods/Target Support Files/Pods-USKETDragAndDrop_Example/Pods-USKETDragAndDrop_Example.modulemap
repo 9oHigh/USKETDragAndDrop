@@ -1,0 +1,6 @@
+framework module Pods_USKETDragAndDrop_Example {
+  umbrella header "Pods-USKETDragAndDrop_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

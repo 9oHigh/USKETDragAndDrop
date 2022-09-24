@@ -1,0 +1,6 @@
+framework module USKETDragAndDrop {
+  umbrella header "USKETDragAndDrop-umbrella.h"
+
+  export *
+  module * { export * }
+}
