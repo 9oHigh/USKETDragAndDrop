@@ -22,7 +22,7 @@ pod 'USKETDragAndDrop'
 
 ## Author
 
-9oHigh, wkdska957@naver.com
+9oHigh, usket@icloud.com
 
 ## License
 
