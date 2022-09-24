@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'USKETDragAndDrop_Example' do
+  pod 'USKETDragAndDrop', :path => '../'
+
+  target 'USKETDragAndDrop_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
